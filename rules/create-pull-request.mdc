@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# ✅ Pull Request Convention
+
+When creating a PR, follow these conventions to ensure clarity and consistency:
+
+- **Title Format**:  
+  Must follow the pattern:  
+  ```
+  <ticket-code>: <subject>
+  ```
+- **Description Requirements**:
+  - Use the template provided in `.github/PULL_REQUEST_TEMPLATE.md`.
+  - Ingore uncommited and unstaged files [CRITICAL]
+  - Start the description with a link to the **relevant Jira ticket**.
+  - Keep the language **clear and concise**, avoiding unnecessary detail.
+  - Use **Australian English** where possible.
+  - Aim for a **semi-formal to casual tone**—professional but not overly stiff.
+  - Find out the **relevant Jira ticket** based on branch name
+  - Open the PR in browser after it is created

@@ -1,0 +1,26 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# ✅ Git Commit Convention
+
+All commit messages should follow this structure, inspired by the [Conventional Commits](mdc:https:/www.conventionalcommits.org) specification:
+
+```
+<jira-ticket>: <jira-ticket-subject>
+[blank line]
+<short description>
+```
+
+**Guidelines:**
+- **Before commit changes to remote, let the requeter to review commit message first**
+- Begin the subject with a **noun**, not a verb.  
+  - ✅ Example: `temporary test_and_deploy script to support CI for legacy builds`  
+  - ❌ Avoid: `add temporary test_and_deploy script`
+- The subject should clearly express the purpose of the change.
+- The body (optional) may contain short explanations or bullet points to elaborate on context or reasoning.
+- There is no need for a concluding summary.
+- ONLY commit and push **staged** changes
+- Find out the **relevant Jira ticket** based on branch name
+
